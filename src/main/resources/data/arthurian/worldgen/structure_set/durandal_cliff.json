@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "arthurian:durandal_cliff",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1231231231,
+    "spacing": 20,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "arthurian:excalibur_shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1231231232,
+    "spacing": 20,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}
