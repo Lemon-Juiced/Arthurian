@@ -6,15 +6,22 @@ license="All rights reserved"
 modId="arthurian"
 version="1.19.4-1.0.0"
 displayName="Arthurian"
-logoFile="examplemod.png"
+logoFile="examplemod.png" # To Do
 credits="Lemon_Juiced"
 authors="Lemon_Juiced"
 
 description='''
-Arthurian and English mythology in Minecraft.
+Arthurian and English Mythology in Minecraft.
 
 Made for Minecraft Modjam: https://discord.gg/khztpRSP58
 Modjam #1: Theme - Mythology
+
+Requirements:
+· 5 Mobs - Requirement Not Met
+· 3 Weapons - Requirement Met (Ascalon, Caliburn, Durandal, Excalibur)
+· 2 Structures - Requirement Not Met
+· 5 Items - Requirement Met (Meteoric Iron Ingot, Meteoric Iron Nugget, Raw Neteoric Iron, Starsteel Ingot, Starsteel Nugget)
+· Custom Models - Requirement Not Met
 '''
 
 [[dependencies.arthurian]]
