@@ -8,10 +8,20 @@
   "item.arthurian.meteoric_iron_nugget": "Meteoric Iron Nugget",
   "item.arthurian.raw_meteoric_iron": "Raw Meteoric Iron",
   
+  "item.arthurian.starsteel_ingot": "Starsteel Ingot",
+  "item.arthurian.starsteel_nugget": "Starsteel Nugget",
+  
   "block.arthurian.meteoric_iron_block": "Block of Meteoric Iron",
   "block.arthurian.meteoric_iron_ore": "Meteoric Iron Ore",
   "block.arthurian.deepslate_meteoric_iron_ore": "Deepslate Meteoric Iron Ore",
   "block.arthurian.raw_meteoric_iron_block": "Block of Raw Meteoric Iron",
+  
+  "block.arthurian.starsteel_block": "Block of Starsteel",
+
+  "tooltip.arthurian.ascalon": "Dragon Slayer's Blade",
+  "tooltip.arthurian.caliburn": "Mimic Blade",
+  "tooltip.arthurian.durandal": "Holy Blade",
+  "tooltip.arthurian.excalibur": "The True Caliburn",
 
   "itemGroup.arthurian": "Arthurian"
 }

@@ -18,17 +18,24 @@ public class CreativeTabs {
                 .title(Component.translatable("itemGroup.arthurian"))
                 .icon(() -> new ItemStack(ModItems.EXCALIBUR.get()))
                 .displayItems((features, output) -> {
+                    output.accept(new ItemStack(ModItems.ASCALON.get()));
+                    output.accept(new ItemStack(ModItems.CALIBURN.get()));
+                    output.accept(new ItemStack(ModItems.DURANDAL.get()));
+                    output.accept(new ItemStack(ModItems.EXCALIBUR.get()));
+
                     output.accept(new ItemStack(ModItems.METEORIC_IRON_INGOT.get()));
                     output.accept(new ItemStack(ModItems.METEORIC_IRON_NUGGET.get()));
                     output.accept(new ItemStack(ModItems.RAW_METEORIC_IRON.get()));
 
-                    output.accept(new ItemStack(ModItems.CALIBURN.get()));
-                    output.accept(new ItemStack(ModItems.EXCALIBUR.get()));
+                    output.accept(new ItemStack(ModItems.STARSTEEL_INGOT.get()));
+                    output.accept(new ItemStack(ModItems.STARSTEEL_NUGGET.get()));
 
                     output.accept(new ItemStack(ModBlocks.METEORIC_IRON_BLOCK.get()));
                     output.accept(new ItemStack(ModBlocks.METEORIC_IRON_ORE.get()));
                     output.accept(new ItemStack(ModBlocks.DEEPSLATE_METEORIC_IRON_ORE.get()));
                     output.accept(new ItemStack(ModBlocks.RAW_METEORIC_IRON_BLOCK.get()));
+
+                    output.accept(new ItemStack(ModBlocks.STARSTEEL_BLOCK.get()));
                 }));
     }
 }

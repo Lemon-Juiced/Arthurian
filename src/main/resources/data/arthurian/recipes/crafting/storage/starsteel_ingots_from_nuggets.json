@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "arthurian:starsteel_nugget"
+    }
+  },
+  "result": {
+    "item": "arthurian:starsteel_ingot",
+    "count": 1
+  }
+}

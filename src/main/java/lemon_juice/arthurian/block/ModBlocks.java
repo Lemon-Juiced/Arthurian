@@ -23,6 +23,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_METEORIC_IRON_ORE = registerBlock("deepslate_meteoric_iron_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(METEORIC_IRON_ORE.get()).requiresCorrectToolForDrops().strength(4.5F, 3.0F)));
     public static final RegistryObject<Block> RAW_METEORIC_IRON_BLOCK = registerBlock("raw_meteoric_iron_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
 
+    public static final RegistryObject<Block> STARSTEEL_BLOCK = registerBlock("starsteel_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+
 
     /******************************** Registry ********************************/
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

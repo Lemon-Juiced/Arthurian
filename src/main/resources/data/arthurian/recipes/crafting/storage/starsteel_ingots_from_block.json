@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arthurian:starsteel_block"
+    }
+  ],
+  "result": {
+    "item": "arthurian:starsteel_ingot",
+    "count": 9
+  }
+}

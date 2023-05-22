@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#forge:ingots/meteoric_iron"
+    "#forge:ingots/meteoric_iron",
+    "#forge:ingots/starsteel"
   ]
 }

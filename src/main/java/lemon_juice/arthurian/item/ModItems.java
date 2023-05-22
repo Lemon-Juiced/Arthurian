@@ -23,6 +23,9 @@ public class ModItems {
     public static final RegistryObject<Item> METEORIC_IRON_NUGGET = ITEMS.register("meteoric_iron_nugget", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_METEORIC_IRON = ITEMS.register("raw_meteoric_iron", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> STARSTEEL_INGOT = ITEMS.register("starsteel_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STARSTEEL_NUGGET = ITEMS.register("starsteel_nugget", () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

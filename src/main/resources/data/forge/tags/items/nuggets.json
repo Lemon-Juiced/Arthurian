@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#forge:nuggets/meteoric_iron"
+    "#forge:nuggets/meteoric_iron",
+    "#forge:nuggets/starsteel"
   ]
 }
