@@ -10,6 +10,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
+/**
+ * Mimic Blade of Excalibur
+ */
 public class CaliburnItem extends SwordItem {
     public CaliburnItem(Properties properties) {
         super(Tiers.CALIBURN_TIER, 4, -2.4f, properties);
