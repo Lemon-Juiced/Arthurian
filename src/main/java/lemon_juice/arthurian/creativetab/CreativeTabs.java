@@ -16,11 +16,14 @@ public class CreativeTabs {
         // Arthurian Tab
         event.registerCreativeModeTab(ARTHURIAN_TAB, builder -> builder
                 .title(Component.translatable("itemGroup.arthurian"))
-                .icon(() -> new ItemStack(ModItems.METEORIC_IRON_INGOT.get()))
+                .icon(() -> new ItemStack(ModItems.EXCALIBUR.get()))
                 .displayItems((features, output) -> {
                     output.accept(new ItemStack(ModItems.METEORIC_IRON_INGOT.get()));
                     output.accept(new ItemStack(ModItems.METEORIC_IRON_NUGGET.get()));
                     output.accept(new ItemStack(ModItems.RAW_METEORIC_IRON.get()));
+
+                    output.accept(new ItemStack(ModItems.CALIBER.get()));
+                    output.accept(new ItemStack(ModItems.EXCALIBUR.get()));
 
                     output.accept(new ItemStack(ModBlocks.METEORIC_IRON_BLOCK.get()));
                     output.accept(new ItemStack(ModBlocks.METEORIC_IRON_ORE.get()));
