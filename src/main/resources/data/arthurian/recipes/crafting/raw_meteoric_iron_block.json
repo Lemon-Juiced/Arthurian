@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "arthurian:raw_meteoric_iron"
+    }
+  },
+  "result": {
+    "item": "arthurian:raw_meteoric_iron_block",
+    "count": 1
+  }
+}

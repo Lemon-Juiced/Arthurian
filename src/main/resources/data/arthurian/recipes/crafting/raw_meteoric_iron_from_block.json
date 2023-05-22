@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arthurian:raw_meteoric_iron_block"
+    }
+  ],
+  "result": {
+    "item": "arthurian:raw_meteoric_iron",
+    "count": 9
+  }
+}

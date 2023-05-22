@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arthurian:meteoric_iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "arthurian:meteoric_iron_nugget",
+    "count": 9
+  }
+}
