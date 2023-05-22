@@ -15,13 +15,13 @@ public class Tiers {
      */
 
     /* Ascalon: Dragon-Slaying Sword
-     * Caliburn: Exaclibur Mimic (Not Quite As Powerful)
+     * Caliburn Replica: Exaclibur Mimic (Not Quite As Powerful as Excalibur)
      * Durandal: Unbreakable
-     * Excalibur: Unbreakable
+     * Excalibur: Unbreakable (Strongest Sword)
      */
 
-    public static final ForgeTier ASCALON_TIER = new ForgeTier(4, 1561, 10.0F, 4.0F, 18, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.METEORIC_IRON_INGOT.get()));
+    public static final ForgeTier ASCALON_TIER = new ForgeTier(4, 2031, 10.0F, 4.0F, 18, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.METEORIC_IRON_INGOT.get()));
     public static final ForgeTier CALIBURN_TIER = new ForgeTier(4, 2031, 10.0F, 4.0F, 18, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.METEORIC_IRON_INGOT.get()));
     public static final ForgeTier DURANDAL_TIER = new ForgeTier(4, -1, 10.0F, 4.0F, 18, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.METEORIC_IRON_INGOT.get()));
-    public static final ForgeTier EXCALIBUR_TIER = new ForgeTier(5, -1, 12.0F, 5.0F, 22, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.METEORIC_IRON_INGOT.get()));
+    public static final ForgeTier EXCALIBUR_TIER = new ForgeTier(5, -1, 12.0F, 5.0F, 22, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.STARSTEEL_INGOT.get()));
 }

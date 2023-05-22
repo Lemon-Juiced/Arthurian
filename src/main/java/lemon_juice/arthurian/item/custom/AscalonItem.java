@@ -1,7 +1,12 @@
 package lemon_juice.arthurian.item.custom;
 
 import lemon_juice.arthurian.item.tier.Tiers;
+import net.minecraft.ChatFormatting;
+import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.damagesource.DamageType;
+import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -17,7 +22,7 @@ import java.util.List;
 
 /**
  * Dragon-Slayer Sword
- * Should do extra damage and weaken the Ender Dragon
+ * Should do extra damage to the Ender Dragon
  */
 public class AscalonItem extends SwordItem {
     public AscalonItem(Properties properties) {
@@ -26,11 +31,12 @@ public class AscalonItem extends SwordItem {
 
     @Override
     public boolean hurtEnemy(ItemStack itemStack, LivingEntity damagedEntity, LivingEntity userEntity) {
-        // This effect based code might not be working - so it may need to be converted to direct damage done to the dragon
-        if(damagedEntity instanceof EnderDragon){
-            damagedEntity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 500, 2));
-            damagedEntity.addEffect(new MobEffectInstance(MobEffects.HARM, 20, 5));
+        // Do extra damage to Ender Dragon entities
+        if(damagedEntity instanceof EnderDragon enderDragon){
+            enderDragon.hurt(new DamageSource((Holder<DamageType>) DamageTypes.PLAYER_ATTACK), 6.0f);
         }
+
+        // Normal hurtEnemy code
         itemStack.hurtAndBreak(1, userEntity, (p_43296_) -> {
             p_43296_.broadcastBreakEvent(EquipmentSlot.MAINHAND);
         });
@@ -39,6 +45,6 @@ public class AscalonItem extends SwordItem {
 
     @Override
     public void appendHoverText(ItemStack itemStack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
-        components.add(Component.translatable("tooltip.arthurian.ascalon"));
+        components.add(Component.translatable("tooltip.arthurian.ascalon").withStyle(ChatFormatting.AQUA));
     }
 }
