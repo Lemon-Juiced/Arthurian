@@ -1,6 +1,6 @@
 {
   "item.arthurian.ascalon": "Ascalon",
-  "item.arthurian.caliburn": "Caliburn",
+  "item.arthurian.caliburn_replica": "Caliburn Replica",
   "item.arthurian.durandal": "Durandal",
   "item.arthurian.excalibur": "Excalibur",
 
@@ -19,7 +19,7 @@
   "block.arthurian.starsteel_block": "Block of Starsteel",
 
   "tooltip.arthurian.ascalon": "Dragon Slayer's Blade",
-  "tooltip.arthurian.caliburn": "Mimic Blade",
+  "tooltip.arthurian.caliburn": "Replica Blade",
   "tooltip.arthurian.durandal": "Holy Blade",
   "tooltip.arthurian.excalibur": "The True Caliburn",
 

@@ -19,7 +19,7 @@ public class CreativeTabs {
                 .icon(() -> new ItemStack(ModItems.EXCALIBUR.get()))
                 .displayItems((features, output) -> {
                     output.accept(new ItemStack(ModItems.ASCALON.get()));
-                    output.accept(new ItemStack(ModItems.CALIBURN.get()));
+                    output.accept(new ItemStack(ModItems.CALIBURN_REPLICA.get()));
                     output.accept(new ItemStack(ModItems.DURANDAL.get()));
                     output.accept(new ItemStack(ModItems.EXCALIBUR.get()));
 
