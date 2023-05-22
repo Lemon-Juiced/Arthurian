@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class CaliburnReplicaItem extends SwordItem {
     public CaliburnReplicaItem(Properties properties) {
-        super(Tiers.CALIBURN_TIER, 4, -2.4f, properties);
+        super(Tiers.CALIBURN_TIER, 3, -2.4f, properties);
     }
 
     @Override

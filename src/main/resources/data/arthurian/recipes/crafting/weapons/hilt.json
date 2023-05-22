@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#",
-    "#",
-    "/"
+    "#/#",
+    " / ",
+    " # "
   ],
   "key": {
     "#": {
-      "item": "arthurian:meteoric_iron_ingot"
+      "item": "minecraft:gold_ingot"
     },
     "/": {
-      "item": "arthurian:hilt"
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "arthurian:caliburn_replica",
+    "item": "arthurian:hilt",
     "count": 1
   }
 }

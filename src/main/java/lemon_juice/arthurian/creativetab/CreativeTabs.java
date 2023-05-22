@@ -23,6 +23,8 @@ public class CreativeTabs {
                     output.accept(new ItemStack(ModItems.DURANDAL.get()));
                     output.accept(new ItemStack(ModItems.EXCALIBUR.get()));
 
+                    output.accept(new ItemStack(ModItems.HILT.get()));
+
                     output.accept(new ItemStack(ModItems.METEORIC_IRON_INGOT.get()));
                     output.accept(new ItemStack(ModItems.METEORIC_IRON_NUGGET.get()));
                     output.accept(new ItemStack(ModItems.RAW_METEORIC_IRON.get()));
