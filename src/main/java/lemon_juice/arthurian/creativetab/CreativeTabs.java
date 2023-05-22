@@ -22,7 +22,7 @@ public class CreativeTabs {
                     output.accept(new ItemStack(ModItems.METEORIC_IRON_NUGGET.get()));
                     output.accept(new ItemStack(ModItems.RAW_METEORIC_IRON.get()));
 
-                    output.accept(new ItemStack(ModItems.CALIBER.get()));
+                    output.accept(new ItemStack(ModItems.CALIBURN.get()));
                     output.accept(new ItemStack(ModItems.EXCALIBUR.get()));
 
                     output.accept(new ItemStack(ModBlocks.METEORIC_IRON_BLOCK.get()));
