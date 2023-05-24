@@ -2,7 +2,10 @@ package lemon_juice.arthurian;
 
 import lemon_juice.arthurian.block.ModBlocks;
 import lemon_juice.arthurian.creativetab.CreativeTabs;
+import lemon_juice.arthurian.entity.ModEntities;
+import lemon_juice.arthurian.entity.client.renderer.KnightRenderer;
 import lemon_juice.arthurian.item.ModItems;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -27,6 +30,9 @@ public class Arthurian {
         // Register Creative Tab
         modEventBus.addListener(CreativeTabs::registerTabs);
 
+        // Register Entities
+        ModEntities.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -43,6 +49,7 @@ public class Arthurian {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.KNIGHT.get(), KnightRenderer::new);
         }
     }
 }
