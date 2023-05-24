@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "arthurian:kiln_clay_ball"
+  },
+  "result": "arthurian:kiln_brick",
+  "experience": 0.1,
+  "cookingtime": 200
+}

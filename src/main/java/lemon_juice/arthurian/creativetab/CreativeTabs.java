@@ -25,6 +25,9 @@ public class CreativeTabs {
 
                     output.accept(new ItemStack(ModItems.HILT.get()));
 
+                    output.accept(new ItemStack(ModItems.KILN_BRICK.get()));
+                    output.accept(new ItemStack(ModItems.KILN_CLAY_BALL.get()));
+
                     output.accept(new ItemStack(ModItems.METEORIC_IRON_INGOT.get()));
                     output.accept(new ItemStack(ModItems.METEORIC_IRON_NUGGET.get()));
                     output.accept(new ItemStack(ModItems.RAW_METEORIC_IRON.get()));
