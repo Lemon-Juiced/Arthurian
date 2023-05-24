@@ -1,6 +1,7 @@
 package lemon_juice.arthurian.block;
 
 import lemon_juice.arthurian.Arthurian;
+import lemon_juice.arthurian.block.custom.ExcaliburBlock;
 import lemon_juice.arthurian.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -17,6 +18,8 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Arthurian.MOD_ID);
+
+    public static final RegistryObject<Block> EXCALIBUR_BLOCK = registerBlock("excalibur_block", () -> new ExcaliburBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5.0F, 6.0F).noOcclusion()));
 
     public static final RegistryObject<Block> METEORIC_IRON_BLOCK = registerBlock("meteoric_iron_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
     public static final RegistryObject<Block> METEORIC_IRON_ORE = registerBlock("meteoric_iron_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.0F, 3.0F)));

@@ -37,6 +37,8 @@ public class CreativeTabs {
 
                     output.accept(new ItemStack(ModItems.KNIGHT_SPAWN_EGG.get()));
 
+                    output.accept(new ItemStack(ModBlocks.EXCALIBUR_BLOCK.get()));
+
                     output.accept(new ItemStack(ModBlocks.METEORIC_IRON_BLOCK.get()));
                     output.accept(new ItemStack(ModBlocks.METEORIC_IRON_ORE.get()));
                     output.accept(new ItemStack(ModBlocks.DEEPSLATE_METEORIC_IRON_ORE.get()));

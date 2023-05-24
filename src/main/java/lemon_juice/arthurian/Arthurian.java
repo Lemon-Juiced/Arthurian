@@ -15,6 +15,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import software.bernie.geckolib.GeckoLib;
 
 @Mod(Arthurian.MOD_ID)
 public class Arthurian {
@@ -29,6 +30,9 @@ public class Arthurian {
 
         // Register Creative Tab
         modEventBus.addListener(CreativeTabs::registerTabs);
+
+        // Initialize GeckoLib (Just In Case)
+        GeckoLib.initialize();
 
         // Register Entities
         ModEntities.register(modEventBus);

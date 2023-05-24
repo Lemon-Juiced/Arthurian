@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arthurian:block/excalibur_block"
+    },
+    "facing=south": {
+      "model": "arthurian:block/excalibur_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arthurian:block/excalibur_block",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "arthurian:block/excalibur_block",
+      "y": 90
+    }
+  }
+}
