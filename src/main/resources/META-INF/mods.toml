@@ -19,11 +19,17 @@ Modjam #1:
 · Theme: Mythology
 
 Requirements:
-· 5 Mobs - Requirement Not Met
+· 5 Mobs - Requirement Not Met (Knight)
 · 3 Weapons - Requirement Met (Ascalon, Caliburn Replica, Durandal, Excalibur)
 · 2 Structures - Requirement Met (Durandal Cliff, Excalibur Shrine)
 · 5 Items - Requirement Met (Hilt, Meteoric Iron Ingot, Meteoric Iron Nugget, Raw Neteoric Iron, Starsteel Ingot, Starsteel Nugget)
 · Custom Models - Requirement Met (All Textures & Models Are Custom)
+
+Planned Features:
+· Actual Blocks For Exaclibur and Durandal
+· Kiln for Starsteel (has Associated Villager) - further extension of Blast Furnace
+· King Arthur Mob and Other Knights (King Arthur Spawns At Excalibur Altar)
+· Reduce Frequency of Mod Structures
 '''
 
 [[dependencies.arthurian]]
