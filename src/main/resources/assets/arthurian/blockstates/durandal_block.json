@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arthurian:block/durandal_block"
+    },
+    "facing=south": {
+      "model": "arthurian:block/durandal_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arthurian:block/durandal_block",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "arthurian:block/durandal_block",
+      "y": 90
+    }
+  }
+}
