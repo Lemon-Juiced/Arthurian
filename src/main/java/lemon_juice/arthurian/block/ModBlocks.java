@@ -10,6 +10,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,6 +23,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DURANDAL_BLOCK = registerBlock("durandal_block", () -> new DurandalBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5.0F, 6.0F).noOcclusion()));
     public static final RegistryObject<Block> EXCALIBUR_BLOCK = registerBlock("excalibur_block", () -> new ExcaliburBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5.0F, 6.0F).noOcclusion()));
+
+    public static final RegistryObject<Block> KILN_BRICKS = registerBlock("kiln_bricks", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)));
 
     public static final RegistryObject<Block> METEORIC_IRON_BLOCK = registerBlock("meteoric_iron_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
     public static final RegistryObject<Block> METEORIC_IRON_ORE = registerBlock("meteoric_iron_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.0F, 3.0F)));
