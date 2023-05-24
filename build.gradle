@@ -116,7 +116,7 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' } //This has to be first or it errors out for some reason...
+    maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
     maven { url = "https://dvs1.progwml6.com/files/maven/"}
     maven { url = "https://modmaven.dev"}
     maven { url = "https://minecraft.curseforge.com/api/maven/"}
