@@ -1,14 +1,12 @@
 package lemon_juice.arthurian.item.custom;
 
-import lemon_juice.arthurian.item.tier.Tiers;
+import lemon_juice.arthurian.item.tier.ModTiers;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.damagesource.DamageType;
 import net.minecraft.world.damagesource.DamageTypes;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.boss.enderdragon.EnderDragon;
@@ -26,7 +24,7 @@ import java.util.List;
  */
 public class AscalonItem extends SwordItem {
     public AscalonItem(Properties properties) {
-        super(Tiers.ASCALON_TIER, 4, -2.4f, properties);
+        super(ModTiers.ASCALON_TIER, 4, -2.4f, properties);
     }
 
     @Override

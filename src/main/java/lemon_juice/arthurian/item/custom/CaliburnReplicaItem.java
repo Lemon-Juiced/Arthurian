@@ -1,6 +1,6 @@
 package lemon_juice.arthurian.item.custom;
 
-import lemon_juice.arthurian.item.tier.Tiers;
+import lemon_juice.arthurian.item.tier.ModTiers;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class CaliburnReplicaItem extends SwordItem {
     public CaliburnReplicaItem(Properties properties) {
-        super(Tiers.CALIBURN_TIER, 3, -2.4f, properties);
+        super(ModTiers.CALIBURN_TIER, 3, -2.4f, properties);
     }
 
     @Override

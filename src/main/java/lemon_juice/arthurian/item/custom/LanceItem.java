@@ -1,6 +1,6 @@
 package lemon_juice.arthurian.item.custom;
 
-import lemon_juice.arthurian.item.tier.Tiers;
+import lemon_juice.arthurian.item.tier.ModTiers;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
@@ -22,7 +22,7 @@ import java.util.List;
  */
 public class LanceItem extends SwordItem {
     public LanceItem(Properties properties) {
-        super(Tiers.LANCE_TIER, 4, -2.4f, properties);
+        super(ModTiers.LANCE_TIER, 4, -2.4f, properties);
     }
 
     @Override
