@@ -37,5 +37,7 @@
   "tooltip.arthurian.durandal": "Holy Blade",
   "tooltip.arthurian.excalibur": "The True Caliburn",
 
+  "entity.minecraft.villager.arthurian.kiln_smith": "Kiln Smith",
+
   "itemGroup.arthurian": "Arthurian"
 }

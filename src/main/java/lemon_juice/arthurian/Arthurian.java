@@ -6,6 +6,7 @@ import lemon_juice.arthurian.entity.ModEntities;
 import lemon_juice.arthurian.entity.client.renderer.KingArthurRenderer;
 import lemon_juice.arthurian.entity.client.renderer.KnightRenderer;
 import lemon_juice.arthurian.item.ModItems;
+import lemon_juice.arthurian.villager.ModVillagers;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,6 +33,9 @@ public class Arthurian {
         // Register Creative Tab
         modEventBus.addListener(CreativeTabs::registerTabs);
 
+        // Register Villagers
+        ModVillagers.register(modEventBus);
+
         // Initialize GeckoLib (Just In Case)
         GeckoLib.initialize();
 
@@ -44,6 +48,9 @@ public class Arthurian {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            ModVillagers.registerPOIs();
+        });
     }
 
     @SubscribeEvent
