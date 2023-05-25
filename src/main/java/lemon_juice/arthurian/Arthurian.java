@@ -3,6 +3,7 @@ package lemon_juice.arthurian;
 import lemon_juice.arthurian.block.ModBlocks;
 import lemon_juice.arthurian.creativetab.CreativeTabs;
 import lemon_juice.arthurian.entity.ModEntities;
+import lemon_juice.arthurian.entity.client.renderer.KingArthurRenderer;
 import lemon_juice.arthurian.entity.client.renderer.KnightRenderer;
 import lemon_juice.arthurian.item.ModItems;
 import net.minecraft.client.renderer.entity.EntityRenderers;
@@ -53,6 +54,7 @@ public class Arthurian {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.KING_ARTHUR.get(), KingArthurRenderer::new);
             EntityRenderers.register(ModEntities.KNIGHT.get(), KnightRenderer::new);
         }
     }

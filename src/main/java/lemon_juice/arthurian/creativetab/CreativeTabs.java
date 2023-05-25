@@ -35,6 +35,7 @@ public class CreativeTabs {
                     output.accept(new ItemStack(ModItems.STARSTEEL_INGOT.get()));
                     output.accept(new ItemStack(ModItems.STARSTEEL_NUGGET.get()));
 
+                    output.accept(new ItemStack(ModItems.KING_ARTHUR_SPAWN_EGG.get()));
                     output.accept(new ItemStack(ModItems.KNIGHT_SPAWN_EGG.get()));
 
                     output.accept(new ItemStack(ModBlocks.DURANDAL_BLOCK.get()));

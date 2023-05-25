@@ -1,6 +1,7 @@
 package lemon_juice.arthurian.entity;
 
 import lemon_juice.arthurian.Arthurian;
+import lemon_juice.arthurian.entity.custom.KingArthurEntity;
 import lemon_juice.arthurian.entity.custom.KnightEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
@@ -12,6 +13,12 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, Arthurian.MOD_ID);
+
+    public static final RegistryObject<EntityType<KingArthurEntity>> KING_ARTHUR =
+            ENTITY_TYPES.register("king_arthur",
+                    () -> EntityType.Builder.of(KingArthurEntity::new, MobCategory.MONSTER)
+                            .sized(2.0f, 1.0f)
+                            .build(new ResourceLocation(Arthurian.MOD_ID, "king_arthur").toString()));
 
     public static final RegistryObject<EntityType<KnightEntity>> KNIGHT =
             ENTITY_TYPES.register("knight",

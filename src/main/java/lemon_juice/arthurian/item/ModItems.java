@@ -35,6 +35,7 @@ public class ModItems {
     public static final RegistryObject<Item> STARSTEEL_INGOT = ITEMS.register("starsteel_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STARSTEEL_NUGGET = ITEMS.register("starsteel_nugget", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> KING_ARTHUR_SPAWN_EGG = ITEMS.register("king_arthur_spawn_egg", () -> new ForgeSpawnEggItem(ModEntities.KING_ARTHUR, Color.RED.getRGB(), Color.BLUE.getRGB(), new Item.Properties()));
     public static final RegistryObject<Item> KNIGHT_SPAWN_EGG = ITEMS.register("knight_spawn_egg", () -> new ForgeSpawnEggItem(ModEntities.KNIGHT, Color.GRAY.getRGB(), Color.BLUE.getRGB(), new Item.Properties()));
 
     public static void register(IEventBus eventBus){
