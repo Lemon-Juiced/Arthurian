@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "arthurian:kiln",
+    "arthurian:kiln_bricks",
     "arthurian:meteoric_iron_block",
     "arthurian:meteoric_iron_ore",
     "arthurian:deepslate_meteoric_iron_ore",

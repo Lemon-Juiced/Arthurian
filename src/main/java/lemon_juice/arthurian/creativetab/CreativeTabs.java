@@ -41,6 +41,7 @@ public class CreativeTabs {
                     output.accept(new ItemStack(ModBlocks.DURANDAL_BLOCK.get()));
                     output.accept(new ItemStack(ModBlocks.EXCALIBUR_BLOCK.get()));
 
+                    output.accept(new ItemStack(ModBlocks.KILN.get()));
                     output.accept(new ItemStack(ModBlocks.KILN_BRICKS.get()));
 
                     output.accept(new ItemStack(ModBlocks.METEORIC_IRON_BLOCK.get()));

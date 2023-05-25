@@ -24,6 +24,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> DURANDAL_BLOCK = registerBlock("durandal_block", () -> new DurandalBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5.0F, 6.0F).noOcclusion()));
     public static final RegistryObject<Block> EXCALIBUR_BLOCK = registerBlock("excalibur_block", () -> new ExcaliburBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5.0F, 6.0F).noOcclusion()));
 
+    public static final RegistryObject<Block> KILN = registerBlock("kiln", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)));
     public static final RegistryObject<Block> KILN_BRICKS = registerBlock("kiln_bricks", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)));
 
     public static final RegistryObject<Block> METEORIC_IRON_BLOCK = registerBlock("meteoric_iron_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
