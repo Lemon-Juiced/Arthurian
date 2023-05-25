@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#B#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "arthurian:kiln_bricks"
+    },
+    "B": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "result": {
+    "item": "arthurian:kiln",
+    "count": 1
+  }
+}

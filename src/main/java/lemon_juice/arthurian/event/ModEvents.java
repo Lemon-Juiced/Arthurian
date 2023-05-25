@@ -28,9 +28,20 @@ public class ModEvents {
     public static class ForgeEvents{
         @SubscribeEvent
         public static void addCustomTrades(VillagerTradesEvent event){
+            // Level 1
             if(event.getType() == ModVillagers.KILN_SMITH.get()) {
                 Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
                 ItemStack stack = new ItemStack(ModItems.METEORIC_IRON_INGOT.get(), 4);
+                int villagerLevel = 1;
+
+                trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                        new ItemStack(Items.EMERALD, 1),
+                        stack,10,8,0.02F));
+            }
+
+            if(event.getType() == ModVillagers.KILN_SMITH.get()) {
+                Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+                ItemStack stack = new ItemStack(ModItems.KILN_BRICK.get(), 16);
                 int villagerLevel = 1;
 
                 trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
