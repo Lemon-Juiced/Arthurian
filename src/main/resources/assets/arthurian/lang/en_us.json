@@ -32,13 +32,15 @@
   
   "block.arthurian.starsteel_block": "Block of Starsteel",
 
+  "entity.minecraft.villager.arthurian.kiln_smith": "Kiln Smith",
+  "entity.arthurian.king_arthur": "King Arthur",
+  "entity.arthurian.knight": "Knight",
+
   "tooltip.arthurian.ascalon": "Dragon Slayer's Blade",
   "tooltip.arthurian.caliburn": "Replica Blade",
   "tooltip.arthurian.durandal": "Holy Blade",
   "tooltip.arthurian.excalibur": "The True Caliburn",
   "tooltip.arthurian.lance": "Does More Damage On Horseback",
-
-  "entity.minecraft.villager.arthurian.kiln_smith": "Kiln Smith",
 
   "itemGroup.arthurian": "Arthurian"
 }

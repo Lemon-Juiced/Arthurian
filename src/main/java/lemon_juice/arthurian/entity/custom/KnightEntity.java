@@ -47,6 +47,17 @@ public class KnightEntity extends Monster implements GeoEntity {
     @Override
     public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
         controllerRegistrar.add(new AnimationController<>(this, "controller", 0, this::predicate));
+        controllerRegistrar.add(new AnimationController<>(this, "attackController", 0, this::attackPredicate));
+    }
+
+    private <T extends GeoAnimatable> PlayState attackPredicate(AnimationState<T> tAnimationState) {
+        if(this.swinging && tAnimationState.getController().getAnimationState().equals(AnimationController.State.STOPPED)){
+            tAnimationState.getController().forceAnimationReset();
+            tAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.knight.attack", Animation.LoopType.PLAY_ONCE));
+            this.swinging = false;
+        }
+
+        return PlayState.CONTINUE;
     }
 
     private <T extends GeoAnimatable> PlayState predicate(AnimationState<T> tAnimationState) {
