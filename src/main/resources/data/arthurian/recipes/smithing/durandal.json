@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "arthurian:broken_durandal"
+  },
+  "addition": {
+    "item": "arthurian:starsteel_ingot"
+  },
+  "result": {
+    "item": "arthurian:durandal"
+  }
+}

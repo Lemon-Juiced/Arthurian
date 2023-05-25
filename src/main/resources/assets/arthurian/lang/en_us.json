@@ -1,8 +1,10 @@
 {
   "item.arthurian.ascalon": "Ascalon",
+  "item.arthurian.broken_durandal": "Broken Durandal",
   "item.arthurian.caliburn_replica": "Caliburn Replica",
   "item.arthurian.durandal": "Durandal",
   "item.arthurian.excalibur": "Excalibur",
+  "item.arthurian.lance": "Lance",
 
   "item.arthurian.hilt": "Hilt",
 
@@ -37,6 +39,7 @@
   "entity.arthurian.knight": "Knight",
 
   "tooltip.arthurian.ascalon": "Dragon Slayer's Blade",
+  "tooltip.arthurian.broken_durandal": "Desecrated Sacred Sword",
   "tooltip.arthurian.caliburn": "Replica Blade",
   "tooltip.arthurian.durandal": "Holy Blade",
   "tooltip.arthurian.excalibur": "The True Caliburn",

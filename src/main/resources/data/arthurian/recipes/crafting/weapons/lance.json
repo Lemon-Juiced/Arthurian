@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#/#",
+    "#/#"
+  ],
+  "key": {
+    "i": {
+      "item": "arthurian:meteoric_iron_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "arthurian:lance",
+    "count": 1
+  }
+}

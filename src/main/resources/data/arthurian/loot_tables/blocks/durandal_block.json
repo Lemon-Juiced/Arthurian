@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "arthurian:durandal"
+          "name": "arthurian:broken_durandal"
         }
       ],
       "rolls": 1.0
