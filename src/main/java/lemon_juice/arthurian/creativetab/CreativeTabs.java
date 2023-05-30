@@ -24,8 +24,10 @@ public class CreativeTabs {
                     output.accept(new ItemStack(ModItems.DURANDAL.get()));
                     output.accept(new ItemStack(ModItems.EXCALIBUR.get()));
                     output.accept(new ItemStack(ModItems.LANCE.get()));
+                    output.accept(new ItemStack(ModItems.SWORD_IN_THE_STONE.get()));
 
                     output.accept(new ItemStack(ModItems.HILT.get()));
+                    output.accept(new ItemStack(ModItems.METEORIC_IRON_HAMMER.get()));
 
                     output.accept(new ItemStack(ModItems.KILN_BRICK.get()));
                     output.accept(new ItemStack(ModItems.KILN_CLAY_BALL.get()));

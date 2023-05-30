@@ -18,7 +18,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 /**
- * Does More Damage On Horseback
+ * Does More Damage While Mounted
  */
 public class LanceItem extends SwordItem {
     public LanceItem(Properties properties) {
@@ -27,7 +27,7 @@ public class LanceItem extends SwordItem {
 
     @Override
     public boolean hurtEnemy(ItemStack itemStack, LivingEntity damagedEntity, LivingEntity userEntity) {
-        // Does Extra Damage On Horseback
+        // Does Extra Damage While Mounted
         if(userEntity.isPassenger()){
             damagedEntity.hurt(new DamageSource((Holder<DamageType>) DamageTypes.PLAYER_ATTACK), 6.0f);
         }

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "arthurian:item/sword_in_the_stone"
+  }
+}

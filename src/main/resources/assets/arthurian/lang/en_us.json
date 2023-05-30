@@ -5,8 +5,10 @@
   "item.arthurian.durandal": "Durandal",
   "item.arthurian.excalibur": "Excalibur",
   "item.arthurian.lance": "Lance",
+  "item.arthurian.sword_in_the_stone": "Sword in the Stone",
 
   "item.arthurian.hilt": "Hilt",
+  "item.arthurian.meteoric_iron_hammer": "Meteoric Iron Hammer",
 
   "item.arthurian.kiln_brick": "Kiln Brick",
   "item.arthurian.kiln_clay_ball": "Kiln Clay Ball",
@@ -43,7 +45,8 @@
   "tooltip.arthurian.caliburn": "Replica Blade",
   "tooltip.arthurian.durandal": "Holy Blade",
   "tooltip.arthurian.excalibur": "The True Caliburn",
-  "tooltip.arthurian.lance": "Does More Damage On Horseback",
+  "tooltip.arthurian.lance": "Does More Damage While Mounted",
+  "tooltip.arthurian.sword_in_the_stone": "The Sword In The Stone",
 
   "itemGroup.arthurian": "Arthurian"
 }

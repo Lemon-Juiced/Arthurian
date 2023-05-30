@@ -21,8 +21,10 @@ public class ModItems {
     public static final RegistryObject<Item> DURANDAL = ITEMS.register("durandal", () -> new DurandalItem(new Item.Properties()));
     public static final RegistryObject<Item> EXCALIBUR = ITEMS.register("excalibur", () -> new ExcaliburItem(new Item.Properties()));
     public static final RegistryObject<Item> LANCE = ITEMS.register("lance", () -> new LanceItem(new Item.Properties()));
+    public static final RegistryObject<Item> SWORD_IN_THE_STONE = ITEMS.register("sword_in_the_stone", () -> new SwordInTheStoneItem(new Item.Properties()));
 
     public static final RegistryObject<Item> HILT = ITEMS.register("hilt", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> METEORIC_IRON_HAMMER = ITEMS.register("meteoric_iron_hammer", () -> new MeteoricIronHammerItem(new Item.Properties()));
 
     public static final RegistryObject<Item> KILN_BRICK = ITEMS.register("kiln_brick", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KILN_CLAY_BALL = ITEMS.register("kiln_clay_ball", () -> new Item(new Item.Properties()));
