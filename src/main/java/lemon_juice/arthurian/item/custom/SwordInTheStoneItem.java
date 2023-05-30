@@ -12,7 +12,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 /**
- * Unbreakable Sword
+ * Precursor To Excalibur
  */
 public class SwordInTheStoneItem extends SwordItem {
     public SwordInTheStoneItem(Properties properties) {
