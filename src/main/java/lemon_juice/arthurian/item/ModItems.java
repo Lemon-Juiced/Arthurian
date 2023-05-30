@@ -38,6 +38,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> KING_ARTHUR_SPAWN_EGG = ITEMS.register("king_arthur_spawn_egg", () -> new ForgeSpawnEggItem(ModEntities.KING_ARTHUR, Color.RED.getRGB(), Color.BLUE.getRGB(), new Item.Properties()));
     public static final RegistryObject<Item> KNIGHT_SPAWN_EGG = ITEMS.register("knight_spawn_egg", () -> new ForgeSpawnEggItem(ModEntities.KNIGHT, Color.GRAY.getRGB(), Color.BLUE.getRGB(), new Item.Properties()));
+    public static final RegistryObject<Item> MERLIN_SPAWN_EGG = ITEMS.register("merlin_spawn_egg", () -> new ForgeSpawnEggItem(ModEntities.MERLIN, Color.MAGENTA.getRGB(), Color.YELLOW.getRGB(), new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -6,9 +6,11 @@ import lemon_juice.arthurian.block.ModBlocks;
 import lemon_juice.arthurian.entity.ModEntities;
 import lemon_juice.arthurian.entity.custom.KingArthurEntity;
 import lemon_juice.arthurian.entity.custom.KnightEntity;
+import lemon_juice.arthurian.entity.custom.MerlinEntity;
 import lemon_juice.arthurian.item.ModItems;
 import lemon_juice.arthurian.villager.ModVillagers;
 import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.entity.ambient.AmbientCreature;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
@@ -80,12 +82,14 @@ public class ModEvents {
     public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
         event.put(ModEntities.KING_ARTHUR.get(), KingArthurEntity.setAttributes());
         event.put(ModEntities.KNIGHT.get(), KnightEntity.setAttributes());
+        event.put(ModEntities.MERLIN.get(), MerlinEntity.setAttributes());
     }
 
     @SubscribeEvent
     public static void entitySpawnRestriction(SpawnPlacementRegisterEvent event) {
         event.register(ModEntities.KING_ARTHUR.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
         event.register(ModEntities.KNIGHT.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
+        event.register(ModEntities.MERLIN.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, AmbientCreature::checkMobSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
     }
 
 }

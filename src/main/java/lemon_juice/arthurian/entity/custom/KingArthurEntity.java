@@ -30,7 +30,7 @@ public class KingArthurEntity extends Monster implements GeoEntity {
                 .add(Attributes.MAX_HEALTH, 40D)
                 .add(Attributes.ATTACK_DAMAGE, 8.0f)
                 .add(Attributes.ATTACK_SPEED, 1.0f)
-                .add(Attributes.MOVEMENT_SPEED, 0.5f).build();
+                .add(Attributes.MOVEMENT_SPEED, 0.4f).build();
     }
 
     @Override

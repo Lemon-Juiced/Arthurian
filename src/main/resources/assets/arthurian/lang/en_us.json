@@ -22,6 +22,7 @@
 
   "item.arthurian.king_arthur_spawn_egg": "King Arthur Spawn Egg",
   "item.arthurian.knight_spawn_egg": "Knight Spawn Egg",
+  "item.arthurian.merlin_spawn_egg": "Merlin Spawn Egg",
 
   "block.arthurian.durandal_block": "Durandal Block",
   "block.arthurian.excalibur_block": "Excalibur Block",
@@ -39,6 +40,7 @@
   "entity.minecraft.villager.arthurian.kiln_smith": "Kiln Smith",
   "entity.arthurian.king_arthur": "King Arthur",
   "entity.arthurian.knight": "Knight",
+  "entity.arthurian.merlin": "Merlin",
 
   "tooltip.arthurian.ascalon": "Dragon Slayer's Blade",
   "tooltip.arthurian.broken_durandal": "Desecrated Sacred Sword",

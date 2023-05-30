@@ -3,6 +3,7 @@ package lemon_juice.arthurian.entity;
 import lemon_juice.arthurian.Arthurian;
 import lemon_juice.arthurian.entity.custom.KingArthurEntity;
 import lemon_juice.arthurian.entity.custom.KnightEntity;
+import lemon_juice.arthurian.entity.custom.MerlinEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -17,14 +18,20 @@ public class ModEntities {
     public static final RegistryObject<EntityType<KingArthurEntity>> KING_ARTHUR =
             ENTITY_TYPES.register("king_arthur",
                     () -> EntityType.Builder.of(KingArthurEntity::new, MobCategory.MONSTER)
-                            .sized(2.0f, 1.0f)
+                            .sized(1.0f, 2.0f)
                             .build(new ResourceLocation(Arthurian.MOD_ID, "king_arthur").toString()));
 
     public static final RegistryObject<EntityType<KnightEntity>> KNIGHT =
             ENTITY_TYPES.register("knight",
                     () -> EntityType.Builder.of(KnightEntity::new, MobCategory.MONSTER)
-                            .sized(2.0f, 1.0f)
+                            .sized(1.0f, 2.0f)
                             .build(new ResourceLocation(Arthurian.MOD_ID, "knight").toString()));
+
+    public static final RegistryObject<EntityType<MerlinEntity>> MERLIN =
+            ENTITY_TYPES.register("merlin",
+                    () -> EntityType.Builder.of(MerlinEntity::new, MobCategory.MISC)
+                            .sized(1.0f, 2.0f)
+                            .build(new ResourceLocation(Arthurian.MOD_ID, "merlin").toString()));
 
 
     public static void register(IEventBus eventBus) {
