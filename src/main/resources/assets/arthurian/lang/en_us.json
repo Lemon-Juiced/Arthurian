@@ -37,6 +37,8 @@
   
   "block.arthurian.starsteel_block": "Block of Starsteel",
 
+  "component.arthurian.merlin_text": "Merlin: Do not fear pulling the sword from the stone, even if it takes time, my liege.",
+
   "entity.minecraft.villager.arthurian.kiln_smith": "Kiln Smith",
   "entity.arthurian.king_arthur": "King Arthur",
   "entity.arthurian.knight": "Knight",
