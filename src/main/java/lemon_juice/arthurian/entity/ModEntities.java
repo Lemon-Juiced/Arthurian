@@ -3,6 +3,7 @@ package lemon_juice.arthurian.entity;
 import lemon_juice.arthurian.Arthurian;
 import lemon_juice.arthurian.entity.custom.KingArthurEntity;
 import lemon_juice.arthurian.entity.custom.KnightEntity;
+import lemon_juice.arthurian.entity.custom.LancelotEntity;
 import lemon_juice.arthurian.entity.custom.MerlinEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
@@ -26,6 +27,13 @@ public class ModEntities {
                     () -> EntityType.Builder.of(KnightEntity::new, MobCategory.MONSTER)
                             .sized(1.0f, 2.0f)
                             .build(new ResourceLocation(Arthurian.MOD_ID, "knight").toString()));
+
+    public static final RegistryObject<EntityType<LancelotEntity>> LANCELOT =
+            ENTITY_TYPES.register("lancelot",
+                    () -> EntityType.Builder.of(LancelotEntity::new, MobCategory.MONSTER)
+                            .sized(1.0f, 2.0f)
+                            .build(new ResourceLocation(Arthurian.MOD_ID, "lancelot").toString()));
+
 
     public static final RegistryObject<EntityType<MerlinEntity>> MERLIN =
             ENTITY_TYPES.register("merlin",

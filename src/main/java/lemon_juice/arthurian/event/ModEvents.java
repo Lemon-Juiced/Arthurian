@@ -82,6 +82,7 @@ public class ModEvents {
     public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
         event.put(ModEntities.KING_ARTHUR.get(), KingArthurEntity.setAttributes());
         event.put(ModEntities.KNIGHT.get(), KnightEntity.setAttributes());
+        event.put(ModEntities.LANCELOT.get(), KnightEntity.setAttributes());
         event.put(ModEntities.MERLIN.get(), MerlinEntity.setAttributes());
     }
 
@@ -89,6 +90,7 @@ public class ModEvents {
     public static void entitySpawnRestriction(SpawnPlacementRegisterEvent event) {
         event.register(ModEntities.KING_ARTHUR.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
         event.register(ModEntities.KNIGHT.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
+        event.register(ModEntities.LANCELOT.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
         event.register(ModEntities.MERLIN.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, AmbientCreature::checkMobSpawnRules, SpawnPlacementRegisterEvent.Operation.REPLACE);
     }
 
